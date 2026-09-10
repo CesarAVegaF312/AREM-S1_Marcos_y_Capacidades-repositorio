@@ -28,7 +28,7 @@ internet, ni dependencias externas.
 ### Opción 1 — Desde el computador (recomendada)
 
 1. Descarga el repositorio: botón verde **`Code` → `Download ZIP`**, y descomprímelo.
-   (O clónalo: `git clone https://github.com/CesarAVegaF312/AREM-S1_Marcos_y_Capacidades.git`)
+   (O clónalo: `git clone https://github.com/CesarAVegaF312/AREM-S1_Marcos_y_Capacidades-repositorio.git`)
 2. Entra a la carpeta y haz **doble clic** sobre `zachman_interactivo.html` o
    `togaf_adm_interactivo.html`.
 3. Se abrirá en tu navegador por defecto. Listo.
@@ -50,8 +50,8 @@ En GitHub, abre el archivo `.html`, entra a la vista **Raw** y guarda la página
 Si el repositorio tiene **Pages** activado (`Settings → Pages → Source: Deploy from a
 branch → main / root`), los interactivos quedan disponibles directamente en el navegador:
 
-- Zachman: `https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades/zachman_interactivo.html`
-- TOGAF ADM: `https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades/togaf_adm_interactivo.html`
+- Zachman: `https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades-repositorio/zachman_interactivo.html`
+- TOGAF ADM: `https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades-repositorio/togaf_adm_interactivo.html`
 
 ---
 
