@@ -47,12 +47,27 @@ En GitHub, abre el archivo `.html`, entra a la vista **Raw** y guarda la página
 
 ### Opción 3 — En línea con GitHub Pages
 
-Si el repositorio tiene **Pages** activado (`Settings → Pages → Source: Deploy from a
-branch → main / root`), los interactivos quedan disponibles directamente en el navegador:
+Con **GitHub Pages** los interactivos se abren con un solo link, sin descargar nada.
+Requiere activarlo una vez (lo hace el dueño del repositorio):
 
-- Zachman: `https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades-repositorio/zachman_interactivo.html`
-- TOGAF ADM: `https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades-repositorio/togaf_adm_interactivo.html`
+1. En el repositorio, entra a la pestaña **`Settings`** (arriba a la derecha).
+2. En el menú lateral izquierdo, baja hasta **`Pages`** (sección *Code and automation*).
+3. En **Build and deployment → Source**, elige **`Deploy from a branch`**.
+4. En **Branch**, selecciona **`main`** y carpeta **`/ (root)`**. Pulsa **`Save`**.
+5. Espera 1–2 minutos (se lanza un despliegue; puedes seguirlo en la pestaña
+   **`Actions`**). Al terminar, la misma página de *Pages* muestra el enlace del sitio
+   con un aviso verde: *"Your site is live at …"*.
 
+Una vez activado, estos son los enlaces para compartir con los estudiantes:
+
+- **Zachman:** https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades-repositorio/zachman_interactivo.html
+- **TOGAF ADM:** https://cesaravegaf312.github.io/AREM-S1_Marcos_y_Capacidades-repositorio/togaf_adm_interactivo.html
+
+> **Notas**
+> - El repositorio debe ser **público** para usar Pages con una cuenta gratuita.
+> - Si obtienes **404**, revisa que el despliegue haya terminado y que el nombre del
+>   archivo en el link esté escrito exactamente igual (distingue mayúsculas).
+> - Cada `git push` a `main` vuelve a desplegar el sitio automáticamente.
 ---
 
 ## Cómo usarlos
@@ -74,3 +89,16 @@ En pantallas pequeñas la matriz de Zachman se desplaza horizontalmente.
 
 Cualquier navegador moderno: Chrome, Edge, Firefox o Safari (versiones recientes).
 No se requiere internet una vez descargados los archivos.
+
+---
+
+## Licencia
+
+Publicado bajo la **Licencia MIT** — ver [`LICENSE`](LICENSE).
+
+Puedes usar, adaptar y redistribuir este material (incluido el código de los
+interactivos) libremente, conservando el aviso de copyright y la atribución.
+
+*Nota: TOGAF® es marca registrada de The Open Group y el Zachman Framework™ de
+Zachman International. Este repositorio contiene material docente que los explica;
+la licencia MIT aplica a estos materiales, no a los marcos originales.*
