@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>AREM S1 — Marcos y Capacidades</title>
+<style>
+:root{--azul:#002060;--medio:#00387D;--claro:#EEF3FA;--pale:#D9E1EF;--slate:#93AAC9;--coral:#C2622C;}
+*{box-sizing:border-box;margin:0;padding:0;}
+body{font-family:'Segoe UI',system-ui,Arial,sans-serif;background:#F0F4FB;color:#1a1a2e;line-height:1.5;}
+.header{background:var(--azul);color:#fff;padding:26px 28px;}
+.header h1{font-size:23px;font-weight:700;}
+.header p{font-size:13.5px;color:var(--slate);margin-top:6px;max-width:70ch;}
+.wrap{max-width:1000px;margin:0 auto;padding:26px 20px 60px;}
+h2{font-size:15px;color:var(--azul);margin:30px 0 4px;letter-spacing:.2px;}
+h2:first-of-type{margin-top:8px;}
+.hint{font-size:13px;color:#5A6B82;margin-bottom:12px;}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:12px;}
+a.card{display:block;background:#fff;border:1px solid var(--pale);border-left:4px solid var(--medio);
+       border-radius:5px;padding:14px 16px;text-decoration:none;color:inherit;transition:.12s;}
+a.card:hover{border-left-color:var(--coral);box-shadow:0 2px 8px rgba(0,32,96,.09);}
+a.card b{display:block;font-size:14.5px;color:var(--azul);margin-bottom:3px;}
+a.card span{font-size:12.5px;color:#5A6B82;}
+a.card.taller{border-left-color:var(--coral);}
+.doc{background:#fff;border:1px solid var(--pale);border-radius:5px;padding:14px 16px;
+     display:flex;flex-wrap:wrap;gap:4px 14px;align-items:baseline;text-decoration:none;color:inherit;}
+.doc:hover{background:var(--claro);}
+.doc b{font-size:14px;color:var(--azul);}
+.doc span{font-size:12.5px;color:#5A6B82;}
+.tag{font-size:10.5px;font-weight:700;letter-spacing:.4px;background:var(--claro);color:var(--medio);
+     padding:2px 7px;border-radius:3px;text-transform:uppercase;}
+.tag.c{background:#FBEDE3;color:var(--coral);}
+code{font-size:12px;background:var(--claro);padding:1px 5px;border-radius:3px;}
+.stack{display:flex;flex-direction:column;gap:10px;}
+footer{margin-top:34px;padding-top:16px;border-top:1px solid var(--pale);font-size:12px;color:#7C8DA8;}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Arquitectura Empresarial · Sesión 1 — Marcos y Capacidades</h1>
+  <p>Unidad 1: Fundamentos y alineación estratégica. Diagnóstico y marcos arquitectónicos.
+     Maestría en Ingeniería de Software, Universidad de La Sabana.
+     TOGAF® Standard, 10.ª edición · Zachman Framework™.</p>
+</div>
+
+<div class="wrap">
+
+  <h2>1 · La clase</h2>
+  <p class="hint">La sesión sincrónica, en tres bloques: primero qué significa, después seis ejemplos guiados y
+     después el taller en salas.</p>
+  <div class="stack">
+    <a class="doc" href="presentacion.html">
+      <span class="tag c">Presentación</span><b>Presentación web de la sesión</b>
+      <span>Las 21 diapositivas animadas, con índice, glosario de códigos y modo de lectura para el teléfono.
+            Se abre en el navegador, sin instalar nada.</span></a>
+    <a class="doc" href="documentos/AREM_S1_Deck_Reto_U1.pdf">
+      <span class="tag">Clase</span><b>Deck de la sesión y reto de la Unidad 1</b>
+      <span>Las mismas 21 diapositivas en PDF, para descargar o imprimir.</span></a>
+  </div>
+
+  <h2>2 · Cómo se hace: formatos y herramientas</h2>
+  <p class="hint">Los formatos se llenan; las herramientas se recorren. Los <code>F-05</code> a <code>F-12</code> no
+     se suben a la plataforma: son el borrador de las secciones del informe.</p>
+  <div class="stack">
+    <a class="doc" href="documentos/AREM_S1_Instrumentos.pdf">
+      <span class="tag c">Se llena</span><b>Instrumentos F-05 a F-12</b>
+      <span>Los ocho formatos de la unidad: caracterización y modelo operativo, mapa de capacidades, madurez de
+            alineación, ficha de brecha, principios, rúbrica formativa, verificación previa y rejilla de vacíos
+            documentales.</span></a>
+  </div>
+
+  <p class="hint" style="margin-top:18px"><b>Herramientas interactivas.</b> Se abren en el navegador; no hay que
+     instalar nada. Las dos se recorren en vivo durante la sesión y quedan para consultarlas durante las 20 horas
+     de trabajo de la Actividad 1.2.</p>
+  <div class="grid">
+    <a class="card" href="interactivos/togaf_adm_interactivo.html">
+      <b>TOGAF ADM Interactivo</b>
+      <span>El ciclo ADM fase por fase, con entradas, salidas, artefactos y ejemplos. En la Unidad 1 solo entran
+            la preliminar, la A y la B: la herramienta muestra por qué.</span></a>
+    <a class="card taller" href="interactivos/zachman_interactivo.html">
+      <b>Zachman Framework Interactivo</b>
+      <span>La matriz 6×6: cada celda muestra el artefacto que debería existir y su aplicación práctica. Es la
+            base de la rejilla F-12 y de donde salen las primeras brechas.</span></a>
+  </div>
+
+  <h2>3 · Las otras sesiones del curso</h2>
+  <p class="hint">Cada unidad tiene su propio repositorio.</p>
+  <div class="grid">
+    <a class="card" href="https://cesaravegaf312.github.io/AREM-S2_Modelado_y_Decision/">
+      <b>Sesión 2 · Modelado y Decisión</b>
+      <span>ArchiMate 3.2, ATAM y la decisión de integración.</span></a>
+    <a class="card" href="https://cesaravegaf312.github.io/AREM-S3_Gobierno_y_Control/">
+      <b>Sesión 3 · Gobierno y Control</b>
+      <span>TOGAF 10, COBIT 2019 e ITIL 4: quién decide y con qué reglas.</span></a>
+    <a class="card" href="https://cesaravegaf312.github.io/AREM-S4_Transformacion_y_Roadmap/">
+      <b>Sesión 4 · Transformación y Roadmap</b>
+      <span>AS-IS, TO-BE, análisis de brechas y roadmap T+0 / T+1 / T+2.</span></a>
+  </div>
+
+  <footer>
+    Material docente de César Augusto Vega Fernández · Licencia MIT ·
+    TOGAF® es marca registrada de The Open Group; Zachman Framework™ de Zachman International.
+  </footer>
+
+</div>
+</body>
+</html>
