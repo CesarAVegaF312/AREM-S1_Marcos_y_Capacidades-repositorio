@@ -41,7 +41,7 @@ Desde esa portada salen los documentos, las dos herramientas y la
 2. **Abran las dos herramientas** mientras leen: el [ciclo ADM](interactivos/togaf_adm_interactivo.html)
    para saber qué fases entran en esta unidad, y la [matriz de Zachman](interactivos/zachman_interactivo.html)
    para encontrar qué no está escrito en su organización.
-3. **Llenen los [Instrumentos F-05 a F-12](documentos/AREM_S1_Instrumentos.pdf)** en el orden en que
+3. **Llenen los [Instrumentos F-05 a F-12](documentos/3_como_se_hace/AREM_S1_Instrumentos.pdf)** en el orden en que
    los pide la presentación. El orden importa: **primero se escriben las evidencias, después se
    decide el cuadrante del modelo operativo.** Un cuadrante elegido antes de la evidencia es una
    intuición con tabla.
@@ -60,7 +60,9 @@ AREM-S1_Marcos_y_Capacidades-repositorio/
 ├── README.md
 ├── LICENSE
 ├── interactivos/       ← TOGAF ADM y Zachman en HTML
-└── documentos/         ← deck de la sesión e instrumentos F-05 a F-12 (PDF)
+└── documentos/         ← PDF, en el orden en que se usan
+    ├── 3_como_se_hace/ ← instrumentos F-05 a F-12
+    └── 4_clase/        ← el deck de la sesión, en PDF
 ```
 
 > Las dos herramientas estuvieron un tiempo en la raíz del repositorio. En la raíz quedan
@@ -72,7 +74,7 @@ AREM-S1_Marcos_y_Capacidades-repositorio/
 | Archivo | Descripción |
 |---|---|
 | [`presentacion.html`](presentacion.html) | La sesión completa en el navegador: 21 diapositivas animadas, con índice (**I**), glosario de códigos (**G**), cronómetro del taller (**T**) y modo de lectura para el teléfono (**L**). |
-| [`documentos/AREM_S1_Deck_Reto_U1.pdf`](documentos/AREM_S1_Deck_Reto_U1.pdf) | Las mismas 21 diapositivas en PDF, para descargar o imprimir. |
+| [`documentos/4_clase/AREM_S1_Deck_Reto_U1.pdf`](documentos/4_clase/AREM_S1_Deck_Reto_U1.pdf) | Las mismas 21 diapositivas en PDF, para descargar o imprimir. |
 
 La sesión va en tres bloques, como el resto del curso: **primero qué significa** —describir frente a
 diagnosticar, los cuatro marcos, qué se toma del ciclo ADM, qué es una capacidad y cuál es la cadena
@@ -89,10 +91,12 @@ borrador.
 
 ### Documentos — carpeta `documentos/`
 
+Misma organización que en las sesiones 2 a 4: `3_como_se_hace/` para los formatos y `4_clase/` para el deck.
+
 | Archivo | Tipo | Descripción |
 |---|---|---|
-| [`AREM_S1_Instrumentos.pdf`](documentos/AREM_S1_Instrumentos.pdf) | PDF · se llena | Los ocho formatos **F-05 a F-12**: caracterización y modelo operativo, mapa de capacidades, madurez de alineación negocio–TI, brecha arquitectónica, principios, rúbrica formativa, verificación previa y rejilla de vacíos documentales (Zachman). |
-| [`AREM_S1_Deck_Reto_U1.pdf`](documentos/AREM_S1_Deck_Reto_U1.pdf) | PDF | Las 21 diapositivas del encuentro sincrónico y el planteamiento del reto de la Unidad 1. |
+| [`AREM_S1_Instrumentos.pdf`](documentos/3_como_se_hace/AREM_S1_Instrumentos.pdf) | PDF · se llena | Los ocho formatos **F-05 a F-12**: caracterización y modelo operativo, mapa de capacidades, madurez de alineación negocio–TI, brecha arquitectónica, principios, rúbrica formativa, verificación previa y rejilla de vacíos documentales (Zachman). |
+| [`AREM_S1_Deck_Reto_U1.pdf`](documentos/4_clase/AREM_S1_Deck_Reto_U1.pdf) | PDF | Las 21 diapositivas del encuentro sincrónico y el planteamiento del reto de la Unidad 1. |
 
 ---
 
