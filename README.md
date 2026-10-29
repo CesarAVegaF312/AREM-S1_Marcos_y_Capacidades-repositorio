@@ -136,22 +136,22 @@ Todo está publicado con GitHub Pages:
 > Si el doble clic abre otro programa (por ejemplo un editor de texto): clic derecho →
 > **Abrir con** → Chrome / Edge / Firefox.
 
-> ⚠️ Al hacer clic sobre un `.html` **dentro de GitHub no se ve el contenido**: GitHub muestra el
+> **Atención:** al hacer clic sobre un `.html` **dentro de GitHub no se ve el contenido**: GitHub muestra el
 > código fuente, no lo ejecuta. Hay que abrirlo desde los enlaces de la Opción 1 o descargarlo.
 
 ---
 
 ## Cómo usarlos
 
-**Presentación** — 👆 Se avanza con las flechas, con la barra espaciadora o tocando la pantalla.
+**Presentación** — Se avanza con las flechas, con la barra espaciadora o tocando la pantalla.
 **I** abre el índice, **G** el glosario de códigos, **T** el cronómetro del taller, **F** la pantalla
 completa y **?** la lista de atajos. En el teléfono, el botón **Lectura** muestra las 21 diapositivas
 una debajo de otra.
 
-**TOGAF ADM interactivo** — 👆 Clic en cualquier **fase** del ciclo (A a H) o en la banda central de
+**TOGAF ADM interactivo** — Clic en cualquier **fase** del ciclo (A a H) o en la banda central de
 **Requirements Management** para ver sus entradas, salidas, artefactos y ejemplos prácticos.
 
-**Zachman interactivo** — 👆 Clic en cualquier **celda** de la matriz para ver qué artefacto produce y
+**Zachman interactivo** — Clic en cualquier **celda** de la matriz para ver qué artefacto produce y
 cómo se aplica en la práctica. Las columnas son las preguntas (*Qué, Cómo, Dónde, Quién, Cuándo, Por
 qué*) y las filas los niveles de perspectiva. En pantallas pequeñas la matriz se desplaza
 horizontalmente.
@@ -167,11 +167,14 @@ internet una vez descargados los archivos.
 
 ## Licencia
 
-Publicado bajo la **Licencia MIT** — ver [`LICENSE`](LICENSE).
+Este material se distribuye bajo la licencia [Creative Commons Atribución-NoComercial-CompartirIgual 4.0 Internacional (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.es) — ver [`LICENSE`](LICENSE).
 
-Pueden usar, adaptar y redistribuir este material (incluido el código de los interactivos)
-libremente, conservando el aviso de copyright y la atribución.
+Pueden **usar, adaptar o compartir** este contenido, incluido el código de los interactivos, con fines educativos, siempre que:
+
+1. Se reconozca la autoría del profesor **César Augusto Vega Fernández**.
+2. No se utilice con fines comerciales.
+3. Las obras derivadas se distribuyan bajo la misma licencia.
 
 *Nota: TOGAF® es marca registrada de The Open Group y el Zachman Framework™ de Zachman
-International. Este repositorio contiene material docente que los explica; la licencia MIT aplica a
+International. Este repositorio contiene material docente que los explica; la licencia aplica a
 estos materiales, no a los marcos originales.*
