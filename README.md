@@ -51,6 +51,70 @@ descomprímanlo y hagan doble clic en `index.html`: la portada abre todo lo dem�
 
 ---
 
+## Saberes del syllabus y radar de la industria
+
+Esta sesión trabaja dos saberes del syllabus del curso: **«Fundamentos y Marcos de Arquitectura
+Empresarial»** y **«Alineación Estratégica entre Negocio y Tecnología»**. La tabla dice dónde se
+trabaja cada parte.
+
+| Parte del saber | Dónde se trabaja |
+|---|---|
+| Fundamentos de la arquitectura empresarial | Presentación de la sesión, primer bloque |
+| TOGAF: ciclo ADM (fases preliminar, A y B) | `interactivos/togaf_adm_interactivo.html` |
+| Zachman como ontología empresarial | `interactivos/zachman_interactivo.html` y formato F-12 |
+| FEAF y ArchiMate en el estudio comparado de marcos | Presentación de la sesión; ArchiMate se profundiza en la Sesión 2 |
+| Rol del arquitecto empresarial | Radar de esta sesión (FDE) |
+| Modelo operativo de Ross, Weill y Robertson | Formato F-05 |
+| Capability mapping | Formato F-06 |
+| Madurez de la alineación negocio–TI | Formato F-07 |
+| Brechas y principios arquitectónicos | Formatos F-08 y F-09 |
+| Matriz de alineación estratégica y value streams | Radar de esta sesión |
+
+### Radar de la industria
+
+Temas actuales conectados con la unidad. Se comentan al inicio del encuentro sincrónico y **no son
+requisitos adicionales de la actividad**: sirven como lente para el informe. Si usan uno, citen la
+fuente.
+
+**Matriz de alineación estratégica.** Henderson y Venkatraman (1993) proponen mirar la alineación
+entre cuatro dominios: estrategia de negocio, estrategia de TI, infraestructura y procesos
+organizacionales, e infraestructura y procesos de TI. La alineación tiene dos ejes: el *ajuste
+estratégico*, entre la estrategia y la infraestructura de cada lado, y la *integración funcional*,
+entre el negocio y TI.
+*En la Actividad 1.2:* al justificar el nivel del F-07, digan en cuál de los dos ejes se rompe la
+alineación de su organización. No es lo mismo una estrategia de TI que no acompaña al negocio que
+una infraestructura que no deja ejecutar la estrategia.
+*Para leer:* Henderson, J. C., & Venkatraman, N. (1993). Strategic alignment: Leveraging
+information technology for transforming organizations. *IBM Systems Journal, 32*(1), 4–16.
+
+**Value streams.** Un value stream es la secuencia de etapas con las que la organización entrega un
+resultado a quien lo recibe; por ejemplo, de «solicitar una cita» a «atención realizada». El mapa
+de capacidades no tiene orden: el value stream dice en qué momento se usa cada capacidad.
+*En la Actividad 1.2:* verifiquen que cada capacidad que marcan como crítica en el F-06 aparezca en
+al menos una etapa de un value stream de la organización. Si una capacidad crítica no está en
+ninguno, o no es crítica o falta un value stream.
+*Para leer:* la guía de value streams de la serie TOGAF 10 (The Open Group).
+
+**La IA como capacidad.** Casi toda organización tiene hoy una iniciativa de IA, y en el mapa de
+capacidades aparece la duda de si «atención asistida por IA» es una capacidad nueva o una forma
+nueva de ejecutar una que ya existe. Una capacidad describe *qué* hace la organización, no *cómo*
+lo hace, y la IA casi siempre es lo segundo.
+*En la Actividad 1.2:* si su organización tiene iniciativas de IA, ubíquenlas en el F-06 como
+soporte tecnológico de capacidades existentes, y justifiquen cualquier excepción.
+
+**FDE y el rol del arquitecto.** El *Forward Deployed Engineer* (FDE) es un ingeniero que trabaja
+dentro de la operación del cliente, no desde una oficina central. Lo popularizó Palantir, y hoy lo
+usan las empresas de IA para llevar sus productos a producción. Responde a un problema que este
+curso conoce bien: el arquitecto que diseña lejos de donde ocurre el trabajo. Hohpe (2020) lo
+describe con la metáfora del ascensor: el arquitecto útil es el que sube y baja entre la sala de
+juntas y la sala de máquinas.
+*En la Actividad 1.1:* al reflexionar sobre su organización, pregúntense quién cumple hoy ese papel,
+si es que alguien lo cumple.
+*Para leer:* Hohpe, G. (2020). *The software architect elevator: Redefining the architect's role in
+the digital enterprise*. O'Reilly Media.
+
+---
+
 ## Estructura del repositorio
 
 ```text
