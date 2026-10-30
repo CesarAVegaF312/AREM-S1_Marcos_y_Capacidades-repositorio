@@ -22,8 +22,8 @@ Las actividades de la unidad, tal como están en la plataforma:
     las cuatro capas, el mapa de capacidades con soporte tecnológico valorado, el nivel de madurez en
     una escala de cinco niveles, tres brechas priorizadas con su impacto estratégico y cinco
     principios arquitectónicos justificados.
-  - Se califica con la rúbrica publicada en el aula; los **dos criterios de mayor peso son brechas y
-    principios**.
+  - Se califica con la rúbrica publicada en el aula; los **dos criterios de mayor peso son la
+    caracterización del modelo operativo y el capability map** (1,5 de 5,0 cada uno).
   - **Los formatos F-05 a F-12 no se suben:** son el borrador de las secciones del informe.
 
 ---
